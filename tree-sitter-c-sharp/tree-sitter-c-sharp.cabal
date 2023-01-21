@@ -50,6 +50,7 @@ library
   Include-dirs:        vendor/tree-sitter-c-sharp/src
   install-includes:    tree_sitter/parser.h
   c-sources:           vendor/tree-sitter-c-sharp/src/parser.c
+                     , vendor/tree-sitter-c-sharp/src/scanner.c
   extra-libraries:     stdc++
   cc-options:          -Wno-trigraphs
 
